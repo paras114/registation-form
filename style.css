@@ -1,0 +1,92 @@
+body{
+    background-image:linear-gradient( #273c75,#192a56);
+    
+}
+
+
+
+h1{
+ font-family: 'Nunito Sans', sans-serif; 
+ padding-left : 20px; 
+ padding-top: 10px;
+ text-align: justify;
+ color:#40739e ;
+}
+form{
+  margin: auto;
+    /* border: 5px solid #95afc0; */
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    background-color: #fefeff;
+    
+    
+
+}
+.font{
+    font-family: 'Itim', cursive;
+}
+
+/* marquee {
+    font-family: 'Nunito Sans', sans-serif; 
+    color: cornsilk;
+    
+    font-size:60px;
+    margin: auto;
+    padding :10px,
+
+} */
+::selection{
+    background-color: crimson;
+}
+#name{
+    color: white;
+    text-decoration: none;
+position: relative;
+bottom:10px;
+font-size: 25px;
+font-family: 'Nunito Sans', sans-serif; 
+}
+#logo{
+     
+     /* background-repeat: no-repeat; */
+     height: auto;
+     width: 50px;
+     /* padding: 30px; */
+  }
+  #name:hover{
+      font-size: 27px;
+
+  }
+ul{
+    list-style: none;
+    /* display: inline-block;
+    border: 2px solid red; */
+    float: left;
+    overflow: auto;
+}
+#nav{
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 20px;
+    /* height: 100px; */
+    /* flex-direction: column; */
+
+}
+.navv{
+    /* border: 4px solid white; */
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    /* display: block; */
+    position: relative;
+    bottom: 70px;
+    padding: 15px;
+    left: 250px;
+    font-size: 27px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navv:hover{
+    /* box-shadow: 3px 3px 7px rgb(240, 241, 241); */
+    font-size: 30px;
+    
+}

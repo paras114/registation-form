@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registation Form</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="#"><img src="img_349207.png" alt="this is an imaage" id="logo"></a>
+      <a href="#" id="name"> Registation.com </a>
+
+    </nav>
+    <div id="nav">
+      <a href="#" class="navv">HOME</a>
+      <a href="#" class="navv">Exchange</a>
+    </div>
+    <!-- <marquee  direction="left">THIS IS A REGISTRATION FORM</marquee> -->
+    <!--Registation form-->
+    <form action="mailto" enctype="text/plain" id="form">
+      <h1 >Registation Form</h1>
+      <label for="nname" class="font">Name : *</label>
+      <input
+        type="text"
+        name="name"
+        id="nname"
+        autocomplete="on"
+        autofocus
+        required
+        placeholder="Enter name"
+      />
+      <br /><br />
+      <label for="fname" class="font">Fathers Name :</label>
+      <input
+        type="text"
+        name="fathers_name"
+        id="fname"
+        placeholder="Enter fathers name"
+      />
+      <br /><br />
+      <label for="mname" class="font">Mothers Name :</label>
+      <input
+        type="text"
+        name="mname"
+        id="mname"
+        placeholder="Enter mothers name"
+      />
+      <br /><br />
+      <label for="address"  class="font">Address : *</label>
+      <textarea
+        name="address"
+        id="address"
+        cols="30"
+        rows="5"
+        required
+        placeholder="Type your address"
+      ></textarea>
+      <br />
+      <br />
+      <label for="pincode" class="font">Pincode : *</label>
+      <input
+        type="number"
+        name="pincode"
+        id="pincode"
+        placeholder="Enter pincode"
+      />
+      <br />
+      <br />
+      <label for="state"  class="font">State : *</label>
+      <select name="state" id="state" required>
+        <option value="#">--Select your state</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Goa">Goa</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Kerala">Kerala</option>
+      </select>
+      <br /><br />
+      <label for="email"  class="font">Email id : *</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="Enter your email"
+      />
+      <br /><br />
+      <label for="phnno"  class="font">Phone No. : *</label>
+      <input
+        type="number"
+        name="no."
+        id="phnno"
+        placeholder="Enter your phone number"
+      />
+      <fieldset>
+        <legend class="font">Gender :</legend>
+        <input type="radio" name="gender" id="male" /> Male
+        <input type="radio" name="gender" id="female" /> Female
+        <input type="radio" name="gender" id="Others" /> Others
+      </fieldset>
+      <br /><br />
+      <label for="dob"  class="font">D.O.B : </label>
+      <input
+        type="date"
+        name="dob"
+        id="dob"
+        placeholder="Select your date of birth"
+      />
+      <br />
+     
+      <input type="reset" value="Reset"  />
+      <input type="submit" value="Submit Here" />
+    </form>
+  </body>
+</html>
